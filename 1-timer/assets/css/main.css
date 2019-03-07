@@ -1,0 +1,46 @@
+body {
+  font-family: helvetica;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app .timer {
+  text-align: center;
+  min-width: 250px;
+  padding: 15px;
+  color: #f3f3f3;
+  background-color: #171717;
+  border-radius: 8px 8px 0px 0px;
+  font-size: 1.75em;
+}
+
+.app .buttons {
+  text-align: center;
+  min-width: 250px;
+  padding: 15px;
+  background: #f3f3f3;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.app .buttons button {
+  font-size: 1.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */

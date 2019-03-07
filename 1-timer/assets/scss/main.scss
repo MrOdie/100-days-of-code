@@ -1,0 +1,36 @@
+body {
+  font-family: helvetica;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .timer {
+    text-align: center;
+    min-width: 250px;
+    padding: 15px;
+    color: #f3f3f3;
+    background-color: #171717;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 1.75em;
+  }
+  
+  .buttons {
+    text-align: center;
+    min-width: 250px;
+    padding: 15px;
+    background: #f3f3f3;
+    border-radius: 0px 0px 8px 8px;
+    
+    button {
+      font-size: 1.05em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}
